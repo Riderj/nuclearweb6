@@ -1,0 +1,96 @@
+/* Elements */
+
+*{
+	padding:0;
+	margin:0;
+}
+
+html{
+	min-height:100%;
+	min-width:800px;
+	max-width:5000px;
+	position:relative;
+}
+
+body{
+	min-width:800px;
+	max-width:5000px;
+	min-height:100%;
+	width:100%;
+}
+
+/* ID's */
+
+#donationcontainer{
+	min-height:100%;
+	width:100%;
+	background: #323232 url(../images/bg.png);
+	padding-bottom:100px;
+	position:absolute;
+}
+
+#donationtable{
+	position:relative;
+	top:100px;
+	margin-bottom:150px;
+}
+#donationtable table{
+	border-collapse: collapse;
+	width:80%;
+	height:90%;
+	margin:0 auto;
+}
+#donationtable table,th{
+	border:2px solid #323232;
+	color:#dfad00;
+}
+#donationtable td{
+	height:30px;
+	text-align:center;
+	border-bottom:2px solid #323232;
+}
+#donationtable th{
+	height:35px;
+	background-color:#dfad00;
+	color:#323232;
+}
+#firstentry td{
+	border-bottom:none;
+}
+#dmaincontent{
+	width:100%;
+	height:100%;
+	z-index:2;
+}
+#dwrapper{
+	height:100%;
+	width:100%;
+}
+#dinfo{
+	color:white;
+	text-indent:50px;
+	border-bottom:1px solid #dfad00;
+	border-top:1px solid #dfad00;
+	padding:20px;
+	font-family:Georgia,Serif;
+	position:relative;
+	top:10px;
+	margin-bottom:10px;
+}
+#dlinks li{
+	display:inline;
+}
+#dlinks{
+	margin:15px auto 0;
+	text-align:center;
+}	
+
+/* Classes */
+
+.dnote{
+	clear:both;
+	color:#dfad00;
+	font-family:Georgia, Serif;
+	text-indent:50px;
+	margin:10px 0 10px 0;
+}
